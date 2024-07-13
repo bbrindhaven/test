@@ -16,7 +16,7 @@ jobs:
               run: |
                   curl -X POST \
                   -H "Content-Type: application/json" \
-                  -H "SPUR_GITHUB_KEY: U2FsdGVkX19MejnFLTZjtmMVAwfPJIFnTCYkcq7X7VNarHR+BcIWN8q0ER/NfBzb" \
+                  -H "SPUR_GITHUB_KEY: U2FsdGVkX18LRx1mAjbW1dxshnMWuLXsVt65XQARt9vGPcsHd/t7cebEhf6wMjeM" \
                   -H "repo: {{ GITHUB_REPOSITORY }}" \
                   -H "sha: {{ GITHUB_SHA }}" \
                   "https://spurserverwebappmulticore.azurewebsites.net/api/integrations/github/webhook?clientId=24&applicationId=25"
