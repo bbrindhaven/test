@@ -17,8 +17,8 @@ jobs:
                   curl -X POST \
                   -H "Content-Type: application/json" \
                   -H "SPUR_GITHUB_KEY: U2FsdGVkX18LRx1mAjbW1dxshnMWuLXsVt65XQARt9vGPcsHd/t7cebEhf6wMjeM" \
-                  -H "repo: {{ bbrindhaven/test }}" \
-                  -H "sha: {{ a4aee3f56db77206c1f1e81281cc11108591ad1e }}" \
+                  -H "repo: bbrindhaven/test" \
+                  -H "sha: a4aee3f56db77206c1f1e81281cc11108591ad1e" \
                   "https://spurserverwebappmulticore.azurewebsites.net/api/integrations/github/webhook?clientId=24&applicationId=25"
 
 # 🎈 Happy testing with Spur! 🎈
